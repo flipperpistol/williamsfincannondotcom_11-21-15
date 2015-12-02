@@ -6,6 +6,23 @@
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
+
+window.onload = function() {
+	setTimeout(function() {
+		// XHR to request a JS and a CSS
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '');
+		xhr.send('');
+		xhr = new XMLHttpRequest();
+		xhr.open('GET', 'css/main.css');
+		xhr.send('');
+		// preload image
+		new Image().src = "";
+	}, 1000);
+};
+
+
+
 		$(document).ready(function(){
 			$("img").click(function(e) {
 				var newclass = $(this).attr("id");
