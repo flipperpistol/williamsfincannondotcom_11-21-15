@@ -8,26 +8,26 @@
 	}
 
 body {
-	background:url(../images/work/bg1_dark.jpg);
-	background-color: rgba(3,3,3,1.00);
+	background:url(../images/work_new/the_ghost_of/bg.jpg) no-repeat top left;
+	background-color:#151515;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 	overflow: hidden;
 	z-index: -100;
-	}
+	
+}
 	
 #container {
-	width: 1150px;
+	width: 1366px;
 	height: 768px;
 	margin-left: auto;
 	margin-right: auto;
-	background:url(../images/work/bg1.jpg) no-repeat center center fixed;
+	background: no-repeat center center fixed;
 	background-size:cover;
 	overflow: hidden;
 	z-index: -90;
-	box-shadow: 5px 5px 7px #040404
 	}
 	
 #invisible-header {
@@ -39,19 +39,19 @@ body {
 #header {
 	float:left;
 	width: 100%;
-	margin: 40px 50px 30px 0px;
+	margin: 60px 50px 30px 0px;
 	position: absolute;
 	}
 	
 #nav {
 	font-family: "Mezzana font";
-	font-size: 14px; 
+	font-size: 16px; 
 	float: left;
-	margin:10px 0px 0px 650px;
-	width: 423px;
-	letter-spacing: 5px;
-	color: white;
+	margin:10px 0px 0px 570px;
+	width: 550px;
+	letter-spacing: 8px;
 	position: absolute;
+	color: #C5CCCD;
 	}
 	
 .theGhostOf {
@@ -61,9 +61,9 @@ body {
 .lineOne {
 	float:left;
 	width: 1px;
-	height: 18px;
-	background-color: white;
-	margin: 0px 18px 0px 15px;
+	height: 30px;
+	background-color: #C5CCCD;
+	margin: -7px 18px 0px 15px;
 	}
 	
 .forFriends {
@@ -73,9 +73,9 @@ body {
 .lineTwo {
 	float:left;
 	width: 1px;
-	height: 18px;
-	background-color: white;
-	margin: 0px 18px 0px 15px;
+	height: 30px;
+	background-color: #C5CCCD;
+	margin: -7px 18px 0px 15px;
 	}
 	
 .info {
@@ -84,18 +84,19 @@ body {
 	
 #title {
 	font-family: "Mezzana font";
-	font-size: 14px; 
-	letter-spacing: 5px;
-	width: 270px;
+	font-size: 16px; 
+	letter-spacing: 7px;
+	width: 350px;
 	position: absolute;
-	margin: 10px 310px 0px 40px;
+	margin: 10px 310px 0px 60px;
 	float: left;
+	color:#C5CCCD;
 	}
 	
 	
 a {
 	text-decoration: none;
-	color: white;
+	color:#C5CCCD;
 	}
 	
 @font-face {
@@ -103,78 +104,207 @@ a {
 	src: url(../font/Mezzana%20font.ttf)	
 	}
 
-#tgo-thumbs {
-	width: 150px;
-	height: 337.5px;
-	margin: 127px 0px 100% 60px;
-	position: relative;
-	float: left;
-	overflow:scroll;
-}
-
-#ff-thumbs {
-	width: 150px;
-	height: 337.5px;
-	margin: 127px 0px 100% 60px;
-	position: relative;
-	float: left;
-	overflow:scroll;
-}
-
 .title {
 	position: relative;
 	margin: 20px 0px 0px 20px;
 	float: left;
 	}
 	
-.lineVertical {
-	background-color: white;
-	height: 345px;
-	width: 1px;
-	margin: 107px 0px 100% 230px;
-	position: absolute;
-	float: left;
-	}
 	
-#invisible-work-container {
-	width: auto;
-	max-width: 600px;
-	max-height: 580px;
-	min-height: 300px;
-	min-width: 300px;
-	height: auto;
- 	position: absolute;
-	background-size:contain;
-	margin: 0px 0px 0px 0px;
-	top: 127px;
-	left: 220px;
-	}
 	
 #work-container {
 	width: 50%;
-	height: 100%;
-	max-width: 535px;
-	max-height: 535px;
+	height: 525px;
+	max-width: 525px;
+	max-height: 525px;
 	min-width: 200px;
 	min-height: 200px;
 	float: left;
 	background: contain;
   	position: absolute;
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
 	background-color: rgba(0,0,0,0.7);
-	margin: 107px 0px 0px 245px;
+	margin: 137px 0px 0px 260px;
 
 	}
 
 #work {
 	height: 100%;
 	width: 100%;
-	max-width: 535px;
-	max-height: 535px;
+	max-width: 590px;
+	max-height: 590px;
 	float: left;
 	background-size:contain;
   	position: relative;
 	}
+	
+#invisible-work-container {
+	width: 100%;
+	height: 100%;
+	min-height: 300px;
+	min-width: 300px;
+	max-height: 585px;
+	max-width: 800px;
+ 	position: absolute;
+	margin: 0px 0px 0px 0px;
+	top: 0;
+	left: 0;
+	background: pink;
+	}
+
+#words-container {
+	background-color: rgba(0,0,0,0.7);
+	height: 300px;
+	width: 220px;
+	position: absolute;
+	float: left;
+	margin: 137px 0px 0px 838px;  
+	padding: 20px; 
+	background: contain;
+	overflow-x: scroll;
+	}
+	
+#tgo-thumbs {
+	width: 160px;
+	height: 417.5px;
+	margin: 160px 0px 100% 60px;
+	position: absolute;
+	float: left;
+	overflow:scroll;
+}
+
+#ff-thumbs {
+	width: 160px;
+	height: 417.5px;
+	margin: 160px 0px 100% 60px;
+	position: absolute;
+	float: left;
+	overflow:scroll;
+}
+	
+#tgo-thumbs img {
+	height: 80px;
+	width: 80px;
+	border: none;
+	overflow: hidden;
+	float:left;
+	}
+	
+#ff-thumbs img {
+	height: 80px;
+	width: 80px;
+	border: none;
+	overflow: hidden;
+	float:left;
+	}
+	
+.lineVertical {
+	background-color: #C5CCCD;
+	height: 450px;
+	width: 1px;
+	margin: 137px 0px 100% 242px;
+	position: absolute;
+	float: left;
+	}
+	
+.lineHorizontal {
+	background-color: #C5CCCD;
+	height: 1px;
+	width: 150px;
+	margin: 27px 0px 0px 0px;
+	position: absolute;
+	float: left;
+	}
+	
+	
+h1 {
+	font-family: "Mezzana font";
+	font-size: 16px;
+	color: #C5CCCD;
+	padding-bottom: 10px;
+	letter-spacing: 4px;
+	}
+		
+p {
+	font-family: "Mezzana font";
+	font-size: 12px;
+	color: #C5CCCD;
+	line-height:17px;
+	letter-spacing: 1px;
+	}
+	
+
+#info-nav {
+	width: 300px;
+	height: 50px;
+	margin: 170px -25px 100% 30px;
+	position: absolute;
+	float: left;
+	font-family: "Mezzana font";
+	font-size: 14px; 
+	letter-spacing: 5px;
+	line-height: 10px;
+	}
+	
+.about {
+	width: 100px;
+	
+	}
+	
+
+	
+.hidden {
+	display: none;
+	}
+	
+.info-box-nav {
+	font-family: "Mezzana font";
+	font-size: 15px;
+	color: #C5CCCD;
+	padding-bottom: 10px;
+	letter-spacing: 5px;
+	float:left;
+	margin: 20px 30px 5px 30px;
+	}
+	
+#info-box {
+	font-family: "Mezzana font";
+	font-size: 15px;
+	color: #C5CCCD;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+	
+#me-body {
+	margin: 30px 0px 0px 30px;
+	float: left;
+	}
+	
+#tgo-body {
+	margin: 30px 0px 0px 30px;
+	float: left;
+	}
+	
+#contact-body {
+	margin: 30px 0px 0px 30px;
+	float: left;
+	}
+	
+#follow-box {
+	height: auto;
+	width: 60px;
+	position: absolute;
+	margin: 137px 0px 0px 835px;  
+	display: none;
+	}
+	
+.follow-icons {
+	height: 40px;
+	width: 40px;
+	background: contain;
+	margin: 0px 0px 5px 0px;
+	}
+	
 
 div.coffee {
 	background:url(../images/work_new/the_ghost_of/coffee.jpg) no-repeat top center;
@@ -206,6 +336,14 @@ div.dragon {
 
 div.paper-deer {
 	background:url(../images/work_new/the_ghost_of/paperdeer.jpg) no-repeat top center;
+}
+
+div.cover {
+	background:url(../images/work_new/the_ghost_of/cover.jpg) no-repeat top center;
+}
+	
+div.mvmnt {
+	background:url(../images/work_new/the_ghost_of/mvmnt.jpg) no-repeat top center;
 }
 
 div.cube {
@@ -240,219 +378,64 @@ div.zodiac {
 	background:url(../images/work_new/for_friends/zodiac_gemini.jpg) no-repeat top center;
 }
 
+div.random {
+	background:url(../images/work_new/for_friends/random.jpg) no-repeat top center;
+}
 
-div.info-box {
+div.sticker {
+	background: url(../images/work_new/for_friends/sticker.jpg) no-repeat top center;
+}
 	
-	}
-	
-#words-container {
-	background-color: rgba(0,0,0,0.7);
-	max-width: 500px;
-	max-height: 200px;
-	height: auto;
-	width: 200px;
-	position: absolute;
-	float: left;
-	margin: 107px 0px 0px 830px;  
-	padding: 20px; 
-	background: contain;
-	overflow-x: scroll;
-	}
-	
-
-	
-#tgo-thumbs img {
-	height: 75px;
-	width: 75px;
-	border: none;
-	overflow: hidden;
-	float:left;
-	}
-	
-#ff-thumbs img {
-	height: 75px;
-	width: 75px;
-	border: none;
-	overflow: hidden;
-	float:left;
-	}
-	
-	
-h1 {
-	font-family: "Mezzana font";
-	font-size: 20px;
-	color: white;
-	padding-bottom: 10px;
-	letter-spacing: 3px;
-	}
-		
-p {
-	font-family: "Mezzana font";
-	font-size: 12px;
-	color: white;
-	line-height:17px;
-	}
-	
-
-#info-nav {
-	width: 300px;
-	height: 50px;
-	margin: 147px -25px 100% 30px;
-	position: relative;
-	float: left;
-	font-family: "Mezzana font";
-	font-size: 14px; 
-	letter-spacing: 5px;
-	line-height: 10px;
-	}
-	
-.about {
-	width: 100px;
-	
-	}
-	
-	
-#answer1, #answer2, #answer3, #answer4 {
-	display: none;
-	}
-	
-#answer {
-	height: 100%;
-	width: 100%;
-	max-width: 500px;
-	max-height: 500px;
-	float: left;
-	background-size:contain;
-  	position: relative;
-	}
-	
-.me:after {
-	content: "Meoijoijoijoi";
-	text-decoration: none;
-	color: white;
-	font-family: "Mezzana font";
-	font-size: 14px; 
-	letter-spacing: 5px;
-	line-height: 40px;
-	}
-	
-.tgo-info:after {
-	content: "aowofwohiefoaijefoijae";
-	text-decoration: none;
-	color: white;
-	font-family: "Mezzana font";
-	font-size: 14px; 
-	letter-spacing: 5px;
-	line-height: 40px;
-	}
-	
-	
-#test-id1 {
-	position:absolute;
-	height: 500px;
-	width: 500px;
-	background-color: pink;
-	display:none;
-	
-	}
-	
-#test-id2 {
-	position:absolute;
-	height: 500px;
-	width: 500px;
-	background-color: red;
-	display:block;
-	
-	}
-	
-.test-class {
-	background-color: red;
-	display: none;
-	
-	}
-	
-.hidden {
-	display: none;
-	}
-	
-.info-box-nav {
-	font-family: "Mezzana font";
-	font-size: 15px;
-	color: white;
-	padding-bottom: 10px;
-	letter-spacing: 5px;
-	float:left;
-	margin: 30px 70px 5px 30px;
-	}
-	
-#info-box {
-	font-family: "Mezzana font";
-	font-size: 15px;
-	color: white;
-	line-height: 20px;
-	letter-spacing: 1px;
-	}
-	
-#me-body {
-	margin: 30px 0px 0px 30px;
-	float: left;
-	}
-	
-#tgo-body {
-	margin: 30px 0px 0px 30px;
-	float: left;
-	}
-	
-#contact-body {
-	margin: 30px 0px 0px 30px;
-	float: left;
-	}
-	
-#follow-box {
-	background-color: rgba(0,0,0,0.7);
-	height: auto;
-	width: 60px;
-	position: absolute;
-	margin: 107px 0px 0px 830px;  
-	display: none;
-	}
-	
-.follow-icons {
-	height: 40px;
-	width: 40px;
-	background: contain;
-	margin: 10px 5px 5px 10px;
-	}
-	
-	
-@media (max-width: 1072px) {
+@media (max-width: 1092px) {
   #words-container {
-    margin: 445px 0px 0px 60px;
-	width: 132px;
-	height: 196px;
+    margin: 559px 0px 0px 50px;
+	width: 155px;
+	height: 103px;
   }
   
-  #follow-box {
-    margin: 445px 0px 0px 60px;
-	width: 172px;
-	height: 236px;
+#follow-box {
+    margin: 580px 0px 0px 60px;
+	width: 180px;
+	height: 80px;
   }
   
-  #nav {
-	  font-size: 10px;
+.follow-icons {
+	height: 80px;
+	width: 80px;
+	margin: 0px -4px 0px 0px;
+	  }
+  
+#nav {
+	  font-size: 11px;
+	  letter-spacing: 7.35px;
+	  margin:30px 0px 0px 61px;
 	  }
 	  
-	.lineVertical {
-		height: 320px;
+.lineVertical {
+		height: 400px;
 		} 
 		
 #title {
-	margin: 0px 310px 0px 60px;
+	margin: -15px 310px 0px 60px;
 	}
-
-#nav {
-	margin:35px 0px 0px 60px;
 	
+#tgo-thumbs {
+	margin: 137px 0px 100% 60px;
+	
+}
+
+#ff-thumbs {
+	margin: 137px 0px 100% 60px;
+	
+}
+
+.lineHorizontal {
+	
+	}
+	
+#work-container {
+	margin: 137px 0px 0px 260px;
+
 	}
 
 }
