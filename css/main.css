@@ -16,8 +16,33 @@ body {
 	background-size:cover;
 	overflow: hidden;
 	z-index: -100;
-	
 }
+	
+body:after{
+    display:none;
+    content: url(../images/work_new/the_ghost_of/coffee.jpg)
+			 url(../images/work/road_to_deer_boss_black_mnt_no_sig_web.gif) 
+			 url(../images/thumbs/tgo_paper_test2_web.jpg)
+			 url(../images/work_new/the_ghost_of/butterfly.jpg)
+			 url(../images/work_new/the_ghost_of/wtf.jpg)
+			 url(../images/work_new/the_ghost_of/tgo.jpg)
+			 url(../images/work_new/the_ghost_of/dragon.jpg) 
+			 url(../images/work_new/the_ghost_of/paperdeer.jpg)
+			 url(../images/work_new/the_ghost_of/cover.jpg)
+			 url(../images/work_new/the_ghost_of/mvmnt.jpg) 
+			 url(../images/work_new/for_friends/undergrowth_cube.jpg) 
+			 url(../images/work_new/for_friends/undergrowth_mnt2.jpg)
+			 url(../images/work_new/for_friends/mtbtz.jpg)
+			 url(../images/work_new/for_friends/bmfb.jpg) 
+			 url(../images/work_new/for_friends/arrival.jpg) 
+			 url(../images/work_new/for_friends/pip.jpg) 
+			 url(../images/work_new/for_friends/solstice_front.jpg)
+			 url(../images/work_new/for_friends/zodiac_gemini.jpg)
+			 url(../images/work_new/for_friends/random.jpg)
+			 url(../images/work_new/for_friends/sticker.jpg);
+
+}
+	
 	
 #container {
 	width: 1366px;
@@ -248,11 +273,8 @@ p {
 	
 .about {
 	width: 100px;
-	
 	}
-	
 
-	
 .hidden {
 	display: none;
 	}
@@ -305,6 +327,12 @@ p {
 	margin: 0px 0px 5px 0px;
 	}
 	
+#bandcamp {
+	margin: 500px 0px 0px 840px;
+	position: absolute;
+	float: left;
+	}
+
 
 div.coffee {
 	background:url(../images/work_new/the_ghost_of/coffee.jpg) no-repeat top center;
