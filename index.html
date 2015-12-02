@@ -7,20 +7,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 
-window.onload = function() {
-	setTimeout(function() {
-		// XHR to request a JS and a CSS
-		var xhr = new XMLHttpRequest();
-		xhr.open('GET', '');
-		xhr.send('');
-		xhr = new XMLHttpRequest();
-		xhr.open('GET', 'http://theghostof.com/css/main.css');
-		xhr.send('');
-		// preload image
-		new Image().src = "";
-	}, 1000);
-};
-
 
 
 		$(document).ready(function(){
@@ -296,6 +282,26 @@ window.onload = function() {
     
     </div>
         
+</div>
+
+
+<div class="hidden">
+  <script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"images/work_new/the_ghost_of/butterfly.jpg",
+				"images/work_new/the_ghost_of/coffee.jpg",
+				"images/work_new/the_ghost_of/deer.jpg"
+			)
+		//--><!]]>
+	</script>
 </div>
 
 </body>
