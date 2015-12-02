@@ -313,7 +313,7 @@ div.coffee {
 }
 
 div.deer {
-	background:url(../images/work/road_to_deer_boss_black_mnt_no_sig_web.gif) no-repeat top center;
+	background:url(../images/work_new/the_ghost_of/deer.jpg) no-repeat top center;
 }
 	
 div.test {
@@ -446,7 +446,7 @@ div.sticker {
 #preloader:after{
     display:none;
     content: url(../images/work_new/the_ghost_of/coffee.jpg)
-			 url(../images/work/road_to_deer_boss_black_mnt_no_sig_web.gif) 
+			 url(../images/work_new/the_ghost_of/deer.jpg) 
 			 url(../images/work_new/the_ghost_of/paper.jpg)
 			 url(../images/work_new/the_ghost_of/butterfly.jpg)
 			 url(../images/work_new/the_ghost_of/wtf.jpg)
