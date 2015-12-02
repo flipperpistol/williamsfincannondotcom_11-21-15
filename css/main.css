@@ -17,12 +17,12 @@ body {
 	overflow: hidden;
 	z-index: -100;
 }
-	
+/*	
 body:after{
     display:none;
     content: url(../images/work_new/the_ghost_of/coffee.jpg)
 			 url(../images/work/road_to_deer_boss_black_mnt_no_sig_web.gif) 
-			 url(../images/thumbs/tgo_paper_test2_web.jpg)
+			 url(../images/work_new/the_ghost_of/paper.jpg)
 			 url(../images/work_new/the_ghost_of/butterfly.jpg)
 			 url(../images/work_new/the_ghost_of/wtf.jpg)
 			 url(../images/work_new/the_ghost_of/tgo.jpg)
@@ -42,7 +42,7 @@ body:after{
 			 url(../images/work_new/for_friends/sticker.jpg);
 
 }
-	
+*/	
 	
 #container {
 	width: 1366px;
@@ -343,7 +343,7 @@ div.deer {
 }
 	
 div.test {
-	background:url(../images/thumbs/tgo_paper_test2_web.jpg) no-repeat top center;
+	background:url(../images/work_new/the_ghost_of/paper.jpg) no-repeat top center;
 }
 	
 div.butterfly {
