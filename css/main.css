@@ -6,6 +6,31 @@
 	margin:0;
 	padding:0;
 	}
+	
+::-webkit-scrollbar {
+      width: 0px;
+	  height: 0px;
+} 
+
+::-webkit-scrollbar-track {
+      background-color: rgba(0, 0, 0, 0.0); 
+} 
+ 
+::-webkit-scrollbar-thumb {
+      background-color: #C5CCCD; 
+} 
+ 
+::-webkit-scrollbar-button {
+	  width: 0px;
+	  height: 0px;
+      background-color: #7c2929;
+} 
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+	  width: 0px;
+	  height: 0px;
+} 
 
 body {
 	background:url(../images/work_new/the_ghost_of/bg.jpg) no-repeat top left;
@@ -89,7 +114,6 @@ body {
 	position: absolute;
 	margin: 10px 310px 0px 60px;
 	float: left;
-	color:#C5CCCD;
 	}
 	
 	
@@ -164,7 +188,7 @@ a {
 	}
 	
 #tgo-thumbs {
-	width: 160px;
+	width: 172px;
 	height: 417.5px;
 	margin: 160px 0px 100% 60px;
 	position: absolute;
@@ -173,7 +197,7 @@ a {
 }
 
 #ff-thumbs {
-	width: 160px;
+	width: 172px;
 	height: 417.5px;
 	margin: 160px 0px 100% 60px;
 	position: absolute;
@@ -390,10 +414,14 @@ div.sticker {
 	
 @media (max-width: 1092px) {
   #words-container {
-    margin: 559px 0px 0px 50px;
-	width: 155px;
+    margin: 559px 0px 0px 60px;
+	width: 145px;
 	height: 103px;
   }
+  
+ h1 {
+	 font-size: 14px; 
+	 }
   
 #follow-box {
     margin: 580px 0px 0px 60px;
