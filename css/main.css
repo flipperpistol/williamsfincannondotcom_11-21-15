@@ -185,7 +185,7 @@ a {
 	margin: 137px 0px 0px 838px;  
 	padding: 20px; 
 	background: contain;
-	overflow-x: scroll;
+	overflow-x: hidden;
 	}
 	
 #tgo-thumbs {
@@ -194,7 +194,7 @@ a {
 	margin: 160px 0px 100% 60px;
 	position: absolute;
 	float: left;
-	overflow:scroll;
+	overflow:hidden;
 }
 
 #ff-thumbs {
@@ -203,7 +203,7 @@ a {
 	margin: 160px 0px 100% 60px;
 	position: absolute;
 	float: left;
-	overflow:scroll;
+	overflow:hidden;
 }
 	
 #tgo-thumbs img {
@@ -423,6 +423,10 @@ div.sticker {
 h1 {
 	 font-size: 14px; 
 	 }
+	 
+p {
+	display: none;
+	}
   
 #follow-box {
     margin: 580px 0px 0px 60px;
