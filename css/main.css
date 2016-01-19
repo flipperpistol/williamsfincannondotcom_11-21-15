@@ -333,6 +333,10 @@ p {
 	}
 
 
+div.triview {
+	background:url(../images/work_new/the_ghost_of/triview.jpg) no-repeat top center;
+	}
+
 div.coffee {
 	background:url(../images/work_new/the_ghost_of/coffee.jpg) no-repeat top center;
 }
@@ -371,6 +375,10 @@ div.cover {
 	
 div.mvmnt {
 	background:url(../images/work_new/the_ghost_of/mvmnt.jpg) no-repeat top center;
+}
+
+div.wonderlust {
+	background:url(../images/work_new/for_friends/wonderlust.jpg) no-repeat top center;
 }
 
 div.cube {
@@ -425,7 +433,7 @@ h1 {
 	 }
 	 
 p {
-	display: none;
+	
 	}
   
 #follow-box {
