@@ -487,7 +487,8 @@ p {
 	
 #preloader:after{
     display:none;
-    content: url(../images/work_new/the_ghost_of/coffee.jpg)
+    content: url(../images/work_new/the_ghost_of/triview.jpg)
+			 url(../images/work_new/the_ghost_of/coffee.jpg)
 			 url(../images/work_new/the_ghost_of/deer.jpg) 
 			 url(../images/work_new/the_ghost_of/paper.jpg)
 			 url(../images/work_new/the_ghost_of/butterfly.jpg)
@@ -495,15 +496,14 @@ p {
 			 url(../images/work_new/the_ghost_of/tgo.jpg)
 			 url(../images/work_new/the_ghost_of/dragon.jpg) 
 			 url(../images/work_new/the_ghost_of/paperdeer.jpg)
-			 url(../images/work_new/the_ghost_of/cover.jpg)
 			 url(../images/work_new/the_ghost_of/mvmnt.jpg) 
+			 url(../images/work_new/for_friends/wonderlust.jpg) 
 			 url(../images/work_new/for_friends/undergrowth_cube.jpg) 
 			 url(../images/work_new/for_friends/undergrowth_mnt2.jpg)
 			 url(../images/work_new/for_friends/mtbtz.jpg)
 			 url(../images/work_new/for_friends/bmfb.jpg) 
 			 url(../images/work_new/for_friends/arrival.jpg) 
 			 url(../images/work_new/for_friends/pip.jpg) 
-			 url(../images/work_new/for_friends/solstice_front.jpg)
 			 url(../images/work_new/for_friends/zodiac_gemini.jpg)
 			 url(../images/work_new/for_friends/random.jpg)
 			 url(../images/work_new/for_friends/sticker.jpg);
