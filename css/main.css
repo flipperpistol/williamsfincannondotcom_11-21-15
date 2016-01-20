@@ -33,7 +33,7 @@
 } 
 
 body {
-	background:url(../images/work_new/the_ghost_of/bg.jpg) no-repeat top left;
+	background:url(../images/work_new/the_ghost_of/bg_noghost.jpg) no-repeat top left;
 	background-color:#151515;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -44,7 +44,7 @@ body {
 }
 	
 #container {
-	width: 1366px;
+	width: 1170px;
 	height: 768px;
 	margin-left: auto;
 	margin-right: auto;
@@ -63,15 +63,15 @@ body {
 #header {
 	float:left;
 	width: 100%;
-	margin: 60px 50px 30px 0px;
+	margin: 40px 50px 30px 0px;
 	position: absolute;
 	}
 	
 #nav {
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 16px; 
 	float: left;
-	margin:10px 0px 0px 570px;
+	margin: 10px 0px 0px 570px;
 	width: 550px;
 	letter-spacing: 8px;
 	position: absolute;
@@ -108,7 +108,7 @@ body {
 	}
 	
 #title {
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 16px; 
 	letter-spacing: 7px;
 	width: 350px;
@@ -148,7 +148,7 @@ a {
   	position: absolute;
 	padding: 20px 20px 20px 20px;
 	background-color: rgba(0,0,0,0.7);
-	margin: 137px 0px 0px 260px;
+	margin: 110px 0px 0px 260px;
 
 	}
 
@@ -182,7 +182,7 @@ a {
 	width: 220px;
 	position: absolute;
 	float: left;
-	margin: 137px 0px 0px 838px;  
+	margin: 110px 0px 0px 838px;  
 	padding: 20px; 
 	background: contain;
 	overflow-x: hidden;
@@ -191,7 +191,7 @@ a {
 #tgo-thumbs {
 	width: 172px;
 	height: 417.5px;
-	margin: 160px 0px 100% 60px;
+	margin: 133px 0px 100% 60px;
 	position: absolute;
 	float: left;
 	overflow:hidden;
@@ -200,7 +200,7 @@ a {
 #ff-thumbs {
 	width: 172px;
 	height: 417.5px;
-	margin: 160px 0px 100% 60px;
+	margin: 133px 0px 100% 60px;
 	position: absolute;
 	float: left;
 	overflow:hidden;
@@ -226,7 +226,7 @@ a {
 	background-color: #C5CCCD;
 	height: 450px;
 	width: 1px;
-	margin: 137px 0px 100% 242px;
+	margin: 110px 0px 100% 242px;
 	position: absolute;
 	float: left;
 	}
@@ -234,7 +234,7 @@ a {
 .lineHorizontal {
 	background-color: #C5CCCD;
 	height: 1px;
-	width: 150px;
+	width: 140px;
 	margin: 27px 0px 0px 0px;
 	position: absolute;
 	float: left;
@@ -242,7 +242,7 @@ a {
 	
 	
 h1 {
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 16px;
 	color: #C5CCCD;
 	padding-bottom: 10px;
@@ -250,7 +250,7 @@ h1 {
 	}
 		
 p {
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 12px;
 	color: #C5CCCD;
 	line-height:17px;
@@ -264,7 +264,7 @@ p {
 	margin: 170px -25px 100% 30px;
 	position: absolute;
 	float: left;
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 14px; 
 	letter-spacing: 5px;
 	line-height: 10px;
@@ -279,7 +279,7 @@ p {
 	}
 	
 .info-box-nav {
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 15px;
 	color: #C5CCCD;
 	padding-bottom: 10px;
@@ -289,7 +289,7 @@ p {
 	}
 	
 #info-box {
-	font-family: "Mezzana font";
+	font-family: "Mezzana font", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
 	font-size: 15px;
 	color: #C5CCCD;
 	line-height: 20px;
@@ -315,7 +315,7 @@ p {
 	height: auto;
 	width: 60px;
 	position: absolute;
-	margin: 137px 0px 0px 835px;  
+	margin: 110px 0px 0px 835px;  
 	display: none;
 	}
 	
@@ -423,7 +423,7 @@ div.sticker {
 	
 @media (max-width: 1092px) {
   #words-container {
-    margin: 559px 0px 0px 60px;
+    margin: 523px 0px 0px 60px;
 	width: 145px;
 	height: 103px;
   }
@@ -437,15 +437,15 @@ p {
 	}
   
 #follow-box {
-    margin: 580px 0px 0px 60px;
+    margin: 560px 0px 0px 85px;
 	width: 180px;
 	height: 80px;
   }
   
 .follow-icons {
-	height: 80px;
-	width: 80px;
-	margin: 0px -4px 0px 0px;
+	height: 50px;
+	width: 50px;
+	margin: 0px 10px 0px 0px;
 	  }
   
 #nav {
@@ -459,16 +459,16 @@ p {
 		} 
 		
 #title {
-	margin: -15px 310px 0px 60px;
+	margin: -7px 310px 0px 60px;
 	}
 	
 #tgo-thumbs {
-	margin: 137px 0px 100% 60px;
+	margin: 100px 0px 100% 60px;
 	
 }
 
 #ff-thumbs {
-	margin: 137px 0px 100% 60px;
+	margin: 100px 0px 100% 60px;
 	
 }
 
@@ -477,7 +477,7 @@ p {
 	}
 	
 #work-container {
-	margin: 137px 0px 0px 260px;
+	margin: 100px 0px 0px 260px;
 
 	}
 
