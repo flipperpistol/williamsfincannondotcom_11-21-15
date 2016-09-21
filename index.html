@@ -3,289 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <title>Williams Fincannon</title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-
-		$(document).ready(function(){
-			$("img").click(function(e) {
-				var newclass = $(this).attr("id");
-				var oldclass = $("#work").attr('class');
-				$("#work").fadeOut(function() {
-				$("#info-box").fadeOut(function() {
-				$("#follow-box").fadeOut(function() {
-					$("#words-container").fadeIn(function() {
-					$("#work").removeClass(oldclass).addClass(newclass).fadeIn('slow');
-				})
-			})
-			})
-			})
-			})
-		});
-		
-			
-	 $(document).ready(function(){
-			$("#ff").click(function(){
-				$("#tgo-thumbs").fadeOut(function() {
-				$("#words-container").fadeOut(function() {
-				$("#words-tgo").fadeOut(function() {
-				$("#info-box").fadeOut(function() {
-				$("#ff-thumbs").fadeIn('slow')
-				$("#words-container").fadeIn('slow') 
-				$("#words-ff").fadeIn('slow')
-				$("#work").fadeIn('slow')
-				})
-				})
-				})
-				})
-			
-		 });
-	  });
-				
-	 $(document).ready(function(){
-			$("#ff").click(function(){
-			$("#follow-box").fadeOut(function() {
-				})
-				})
-				})
-				
-	$(document).ready(function(){
-			$("#theGhostOf").click(function(){
-			$("#follow-box").fadeOut(function() {
-				})
-				})
-				})
-				
-		
-	 $(document).ready(function(){
-			$("#theGhostOf").click(function(){
-			$("#words-container").fadeOut(function() {
-				})
-				})
-				})
-				
-	$(document).ready(function(){
-			$("#ff").click(function(){
-			$("#words-container").fadeOut(function() {
-				})
-				})
-				})
-				
-	$(document).ready(function(){
-			$("#ff").click(function(){
-			$("#info-box").fadeOut(function() {
-				})
-				})
-				})
-				
-	$(document).ready(function(){
-			$("#theGhostOf").click(function(){
-			$("#info-box").fadeOut(function() {
-				})
-				})
-				})
-		
-		
-		
-		
-	  
-	  $(document).ready(function(){
-			$("#theGhostOf").click(function(){
-				$("#ff-thumbs").fadeOut(function() {
-				$("#words-container").fadeOut(function() {
-				$("#words-ff").fadeOut(function() {
-				$("#info-box").fadeOut(function() {
-				$("#tgo-thumbs").fadeIn('slow')
-				$("#words-container").fadeIn('slow') 
-				$("#words-tgo").fadeIn('slow')
-				$("#work").fadeIn('slow')
-				})
-				})
-				})
-				})
-			
-		 });
-	  });
-	  
-	  $(document).ready(function(){
-			$("#info").click(function(){
-				$("#work").fadeOut(function() {
-				$("#info-box").fadeIn('slow');
-				$("#follow-box").fadeIn('slow');
-				})
-		 });
-	  });
-	  
-	  $(document).ready(function(){
-			$("#info").click(function(){
-				$("#words-container").fadeOut(function() {
-				})
-		 });
-	  });
-	  
-	  $(document).ready(function(){
-			$("#me").click(function(){
-				$("#tgo-body").fadeOut(function() {
-				$("#contact-body").fadeOut(function() {
-				$("#me-body").fadeIn('slow');
-				})
-			})
-		 });
-	  });
-	
-	 $(document).ready(function(){
-			$("#tgo-info").click(function(){
-				$("#me-body").fadeOut(function() {
-				$("#contact-body").fadeOut(function() {
-				$("#tgo-body").fadeIn('slow');
-				})
-			})
-		 });
-	  });
-	  
-	  $(document).ready(function(){
-			$("#contact").click(function(){
-				$("#me-body").fadeOut(function() {
-				$("#tgo-body").fadeOut(function() {
-				$("#contact-body").fadeIn('slow');
-				})
-			})
-		 });
-	  });
-	    
-	  
-</script>
+<link href="css/main_css.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
 <div id="container">
-<div id="header">
 
-	<div id="title">
-    	<a href="index.html">WILLIAMS FINCANNON</a>
+  <div id="nav">
+
+		<div id="header">
+        <a href="index.html">Williams Fincannon</a>
     </div>
-
-	<div id="nav">
-        <div id="theGhostOf" class="theGhostOf">
-        	THE GHOST OF
-        </div>
-        <div class="lineOne"></div>
-        
-        <div id="ff" class="forFriends">
-        	FOR FRIENDS
-        </div>
-        <div class="lineTwo"></div>
-        
-        <div id="info">
-        	INFO
-        </div>
-        
-	</div>
     
-</div>
-
-
-
-
-
-	<div id="tgo-thumbs" class="tgo-thumbs">
-    
-    		<img id="triview" src="images/thumbs_new/the_ghost_of/triview_thumb.jpg" alt=""/>
-   			<img id="butterfly" src="images/thumbs_new/the_ghost_of/butterfly_thumb.jpg" alt=""/>
-            <img id="coffee" src="images/thumbs_new/the_ghost_of/coffee_thumb.jpg" alt=""/>
-            <img id="deer" src="images/thumbs_new/the_ghost_of/deer_thumb.jpg" alt=""/>
-            <img id="wtf" src="images/thumbs_new/the_ghost_of/wtf_thumb.jpg" alt=""/>
-            <img id="test" src="images/thumbs_new/the_ghost_of/paper_thumb.jpg" alt=""/>
-            <img id="mvmnt" src="images/thumbs_new/the_ghost_of/mvmnt_thumb.jpg" alt=""/>
-            <img id="dragon" src="images/thumbs_new/the_ghost_of/dragon_thumb.jpg" alt=""/>
-            <img id="paper-deer" src="images/thumbs_new/the_ghost_of/paperdeer_thumb.jpg" alt=""/>
-            <img id="tgo" src="images/thumbs_new/the_ghost_of/tgo_thumb.jpg" alt=""/>
-           
-           
+   		<div class="sub_header">Projects</div>
+   	 
+  		<div class="list">
+        <a href="pages/projects/the_ghost_of.html">The Ghost Of</a>
+        <br>
+        <a href="pages/projects/ctcwkh.html">Curiosity, the Cat Who Killed Himself</a>
+        <br>
+        <a href="pages/projects/future_hierotopy.html">Future Hierotopy</a>
+        <br>
+        <a href="pages/projects/silent_music_videos.html">Silent Music Videos</a>
+        <br>
+        <a href="pages/projects/for_friends.html">For Friends</a> 
+    </div>
         
-      
-  </div>
-  
-  	<div id="ff-thumbs" class="hidden">
-  
-  			 <img id="wonderlust" src="images/thumbs_new/for_friends/wonderlust_thumb.jpg" alt=""/>
-			 <img id="cube" src="images/thumbs_new/for_friends/underground_thumb.jpg" alt=""/>
-			 <img id="undergrowth-mnt" src="images/thumbs_new/for_friends/undergrowth_mnt_thumb2.jpg" alt=""/>
-             <img id="mtbtz" src="images/thumbs_new/for_friends/mtbtz_thumb.jpg" alt=""/>
-             <img id="random" src="images/thumbs_new/for_friends/random_thumb.jpg" alt=""/>
-             <img id="bmfb" src="images/thumbs_new/for_friends/bmfb_thumb.jpg" alt=""/>
-             <img id="arrival" src="images/thumbs_new/for_friends/arrival_thumb.jpg" alt=""/>
-             <img id="zodiac" src="images/thumbs_new/for_friends/zodiac_thumb.jpg" alt=""/>
-             <img id="sticker" src="images/thumbs_new/for_friends/sticker_thumb.jpg" alt=""/>
-             <img id="pip" src="images/thumbs_new/for_friends/pip_thumb.jpg" alt=""/>
+        <div class="sub_header">Links</div>
+        
+        	<div class="list"><a href="pages/projects/silent_music_videos.html">Youtube</a> <br> <a href="pages/projects/silent_music_videos.html">Vimeo</a><br> <a href="pages/projects/silent_music_videos.html">Patreon </a><br><a href="pages/projects/silent_music_videos.html">Tumblr</a></div>
+            
+    <div id="project_about_container">
+   		<div class="sub_header">About</div>
+    	<div class="project_about">williamsfincannon@gmail.com <br> BFA Graphic Design <br> Seattle,WA</div>
     
-  	</div>
-   
-  <div class="lineVertical"></div>
-  
-   
-    
-    	<div id="work-container">
+    </div>
 	
-             <div id="work" class="butterfly"></div>
-            
-         	 <div id="info-box" class="hidden">
-             
-             	<div id="me" class="info-box-nav">ABOUT ME</div>
-                <div id="contact" class="info-box-nav">CONTACT</div>
-                <div id="follow" class="info-box-nav"></div>
-                <div id="me-body" class="">- BFA Graphic Design - Appalachian State University<br><br>
-- Currently living in Seattle, WA</div> 
-                <div id="tgo-body" class="hidden"></div>
-                <div id="contact-body" class="hidden">
-                	<a href="mailto:xtheghostofx@gmail.com">- fincannonwb@gmail.com</a>
-                
-                </div>
-                
-        
-             </div>
-         </div> 
-         
+   
     
-        
-    	<div id="words-container">
-        
-        	<div class="lineHorizontal"></div>
-        
-        	<div id="words-tgo" class="">
-        
-        <h1>The Ghost Of</h1><br>
-        
-        <p>Concept illustrations for my audio/visual project</p>
-        	</div>
-            
-            <div id="words-ff" class="hidden">
-        
-        <h1>For Friends</h1><br>
-        
-        <p>Freelance projects</p>
-        	</div>
-      
-        </div>
-
-	<div id="follow-box">
-    
-    	<a href="http://thexghostxof.tumblr.com" target="_blank">
-        
-       	<img class="follow-icons" src="images/thumbs_new/follow_icons/tumblr-icon.jpg" alt=""/> </a>
-        
-        <a href="https://twitter.com/the_ghost_of" target="_blank">
-        
-       	<img class="follow-icons" src="images/thumbs_new/follow_icons/twitter-icon.jpg" alt=""/> </a>
-        
-    
+	
     </div>
     
+	
+    
+    
+
+
+
+<div id="projects_container">
+	<img src="images/ctcwkh/cat_climb.gif" alt=""/>
+	<img src="images/ctcwkh/mt_lego_border.jpg" alt=""/>
+	   
         
 </div>
 
-<div id="preloader"></div>
+ </div>
 
 
 </body>
